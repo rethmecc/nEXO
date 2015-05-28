@@ -1,0 +1,14 @@
+May 27
+Taking too long to read large hdf5 files.
+This is probably due to the current method of searching for each waveform.
+Learning hdf5 in order to solve this issue.
+Processed data. Data doesn't look good. Baseline keeps shifting, causing the peak finder to fail. Also, dark noise is quite high even at -100C (radioactivity?).
+Upgrading peak finder to calculate local baseline (one peak width) as it scans the histogram for peaks.
+Paul will retake data.
+Fabrice suggests that problem may be caused by one of the four MPPCs being bad. Will switch to a different one.
+WF on scope looks much better. Taking full dataset.
+Constructed box ot of alimunum to protect reference MPPC.
+
+May 28
+Data from yesterday still looks bad.
+Created algorithm to count zeros using the minimum of the WF.
