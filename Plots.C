@@ -39,22 +39,25 @@ void Plots(char type){
       Time->BuildLegend(0.52,0.69,0.9,0.9);
    }
    if (type=='P'){
-      ofstream fout;
-      fout.open("func720");
-      //http://en.wikipedia.org/wiki/Exponentially_modified_Gaussian_distribution
-      double p[4];
-      double y;
-      p[0]=1.97787e+03; //amplitude
-      p[1]=6.67490e+01; //gaussian mu
-      p[2]=2.98564e+00; //gaussian sig
-      p[3]=1.99926e+00; //exponential decay constant
-      for (int x=0;x<100;x+=2){
-         y = (p[0]/p[3]/2.*exp((p[1]+p[2]*p[2]/p[3]/2.-x)/p[3])*TMath::Erfc((p[1]+p[2]*p[2]/p[3]-x)/sqrt(2.)/p[2]))*720.;
-         if (y-static_cast<int>(y)>=0.5)
-            fout << static_cast<int>(y)+1 << endl;
-         else
-            fout << static_cast<int>(y) << endl;
-      }
+      TCanvas* plot = new TCanvas("plot","plot",1000,600);
+      TGraphErrors* p1=new TGraphErrors ("p1.txt");
+      p1->SetTitle("p1");
+      p1->SetLineColor(1);
+      p1->SetLineWidth(1);
+      p1->SetMarkerStyle(3);
+      p1->SetMarkerColor(1);
+      TGraphErrors* p2=new TGraphErrors ("p2.txt");
+      p2->SetTitle("p2");
+      p2->SetLineColor(2);
+      p2->SetLineWidth(1);
+      p2->SetMarkerStyle(3);
+      p2->SetMarkerColor(2);
+      TMultiGraph* mg = new TMultiGraph();
+//       mg->Add(p1);
+      mg->Add(p2);
+      mg->Draw("AP");
+      plot->Update();
+      plot->BuildLegend(0.84,0.84,0.9,0.9);
    }
    if (type=='F'){
       TCanvas* FitMethods = new TCanvas("FitMethods","FitMethods",1000,600);
@@ -581,8 +584,7 @@ void Plots(char type){
       mg->Add(Norm);
       mg->SetTitle(";OV (V); <PE> (#mus^{-1})");
       mg->Draw("AP");
-      mg->GetYaxis()->SetRangeUser(0,1.3);
-      mg->GetYaxis()->SetRangeUser(0,0.5);
+//       mg->GetYaxis()->SetRangeUser(0,0.5);
       nPE->Update();
       nPE->BuildLegend(0.84,0.84,0.9,0.9);
    }
