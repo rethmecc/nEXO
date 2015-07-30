@@ -1,0 +1,47 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{beaver}
+\usepackage{textpos}
+
+\title{TRIUMF nEXO SiPM Studies}
+\author[]{\includegraphics[height=2.0cm,width=2.2cm]{./EXO.png}\\ \vspace{0.5cm} \\Fabrice Reti\`{e}re\\Carl Rethmeier\\Lloyd James\\Paul Lopes Gomes\vspace{-0.5cm}}
+\institute[]{\includegraphics[height=0.8cm,width=2.5cm]{./TRIUMF.png}}
+\date{\today}
+
+\input{templatemod}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(.85\textwidth,-1cm)
+\vspace{0.5mm}
+\hspace{-2.5cm}
+\includegraphics[height=0.8cm,width=2.5cm]{./TRIUMF.png}
+\hspace{0.5cm}
+\includegraphics[height=0.9cm,width=0.9cm]{./EXO.png}
+\end{textblock*}}
+
+
+
+\begin{frame}{Sample Slide}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth, angle=90]{testgraph.pdf}
+\caption{This is our awesome figure which shows how awesome we are.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Sample Slide 2}
+I know how you like sample slides, so I made you another one.\\
+\begin{itemize}
+\item This one even has bullet points.
+\item Oooh yeah.
+\item This is one good presentation right here.
+\end{itemize}
+\end{frame}
+
+\end{document}
