@@ -1,0 +1,77 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{beaver}
+\usepackage{textpos}
+
+\title{TRIUMF nEXO SiPM Studies}
+\author[]{\includegraphics[height=2.0cm,width=2.2cm]{./EXO.png}\\ \vspace{0.5cm} \\Fabrice Reti\`{e}re\\Carl Rethmeier\\Lloyd James\\Paul Lopes Gomes\vspace{-0.5cm}}
+\institute[]{\includegraphics[height=0.8cm,width=2.5cm]{./TRIUMF.png}}
+\date{\today}
+
+\input{templatemod}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(.85\textwidth,-1cm)
+\vspace{0.5mm}
+\hspace{-2.5cm}
+\includegraphics[height=0.8cm,width=2.5cm]{./TRIUMF.png}
+\hspace{0.5cm}
+\includegraphics[height=0.9cm,width=0.9cm]{./EXO.png}
+\end{textblock*}}
+
+\begin{frame}{Pulse Amplitude vs Time - VUV3}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth]{AmpVUV3.pdf}%
+\includegraphics[height=0.5\textwidth]{AmpVUV3_new.pdf}
+\caption{Amplitude of pulses against the time between the pulse and the previous pulse, before and after improvements to the pulse finder. No fitting involved.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Band Spreading - VUV3}
+\begin{figure}
+\centering
+\includegraphics[height=0.38\textwidth]{peak_low.pdf}%
+\includegraphics[height=0.38\textwidth]{peak_high.pdf}
+\caption{At higher p.e., the amplitude bands are more spread out. These figures show this to be a result of inconsistent pulse shape.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Delta Time}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth]{LightLeak.pdf}
+\caption{Delta-time distribution.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Updated Crosstalk Plot}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth]{LightLeak.pdf}
+\caption{Delta-time distribution.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Setup Modifications}
+\begin{itemize}
+\item To obtain a less noisy reference waveform, one SiPM was replaced with a Hammamatsu PMT.
+\item It was seen that the collimators were the source of the $\left< PE \right>$ measurement instability, by exacerbating any small misalignment, and were removed. 
+\end{itemize}
+\end{frame}
+\\
+\begin{frame}{Updated $\left< PE \right>$ Data}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth]{LightLeak.pdf}
+\caption{Delta-time distribution.}
+\end{figure}
+\end{frame}
+
+\end{document}
