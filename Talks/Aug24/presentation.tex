@@ -4,7 +4,7 @@
 \usepackage{textpos}
 
 \title{TRIUMF nEXO SiPM Studies}
-\author[]{\includegraphics[height=2.0cm,width=2.2cm]{./EXO.png}\\ \vspace{0.5cm} \\Fabrice Reti\`{e}re\\Carl Rethmeier\\Lloyd James\\Paul Lopes Gomes\vspace{-0.5cm}}
+\author[]{\includegraphics[height=2.0cm,width=2.2cm]{./EXO.png}~\\  ~\\Fabrice Reti\`{e}re\\Carl Rethmeier\\Lloyd James\\Paul Lopes Gomes\vspace{-0.5cm}}
 \institute[]{\includegraphics[height=0.8cm,width=2.5cm]{./TRIUMF.png}}
 \date{\today}
 
@@ -46,8 +46,24 @@
 \begin{frame}{Delta Time}
 \begin{figure}
 \centering
-\includegraphics[height=0.5\textwidth]{LightLeak.pdf}
-\caption{Delta-time distribution.}
+\includegraphics[height=0.5\textwidth]{deltatime.pdf}
+\caption{Delta-time distribution for VUV3 at -100C at several operating voltages.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Dark Noise Rate}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth]{VUV3_DN_vs_V.pdf}
+\caption{Dark noise rate against operating voltage for VUV3 at -100C. Extracted from fit to delta-time distribution.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Afterpulsing Rate}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth]{VUV3_AP2_vs_V.pdf}
+\caption{Afterpulsing rate against operating voltage for VUV3 at -100C. Calculated from values extracted from fit to delta-time distribution.}
 \end{figure}
 \end{frame}
 
@@ -65,7 +81,7 @@
 \item It was seen that the collimators were the source of the $\left< PE \right>$ measurement instability, by exacerbating any small misalignment, and were removed. 
 \end{itemize}
 \end{frame}
-\\
+
 \begin{frame}{Updated $\left< PE \right>$ Data}
 \begin{figure}
 \centering
