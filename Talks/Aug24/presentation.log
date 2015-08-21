@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.30)  19 AUG 2015 15:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.30)  20 AUG 2015 14:26
 entering extended mode
  %&-line parsing enabled.
 **presentation.tex
@@ -914,28 +914,28 @@ File: ./TRIUMF.png Graphic file (type png)
 File: ./EXO.png Graphic file (type png)
  <use ./EXO.png> [4
 
- <./deltatime.pdf, page is rotated 90 degrees>] <VUV3_DN_vs_V.pdf, id=352, 569.
-12625pt x 385.44pt>
-File: VUV3_DN_vs_V.pdf Graphic file (type pdf)
+ <./deltatime.pdf, page is rotated 90 degrees>] <VUV3_DN_vs_OV.pdf, id=352, 569
+.12625pt x 385.44pt>
+File: VUV3_DN_vs_OV.pdf Graphic file (type pdf)
 
-<use VUV3_DN_vs_V.pdf>
+<use VUV3_DN_vs_OV.pdf>
 File: ./TRIUMF.png Graphic file (type png)
  <use ./TRIUMF.png>
 File: ./EXO.png Graphic file (type png)
  <use ./EXO.png> [5
 
- <./VUV3_DN_vs_V.pdf, page is rotated 90 degrees>]
-<VUV3_AP2_vs_V.pdf, id=422, 569.12625pt x 385.44pt>
-File: VUV3_AP2_vs_V.pdf Graphic file (type pdf)
- <use VUV3_AP2_vs_V.pdf>
+ <./VUV3_DN_vs_OV.pdf, page is rotated 90 degrees>]
+<VUV3_AP2_vs_OV.pdf, id=422, 569.12625pt x 385.44pt>
+File: VUV3_AP2_vs_OV.pdf Graphic file (type pdf)
+ <use VUV3_AP2_vs_OV.pdf>
 File: ./TRIUMF.png Graphic file (type png)
 
 <use ./TRIUMF.png>
 File: ./EXO.png Graphic file (type png)
  <use ./EXO.png> [6
 
- <./VUV3_AP2_vs_V.pdf, page is rotated 90 degrees>] <LightLeak.pdf, id=492, 569
-.12625pt x 546.04pt>
+ <./VUV3_AP2_vs_OV.pdf, page is rotated 90 degrees>] <LightLeak.pdf, id=492, 56
+9.12625pt x 546.04pt>
 File: LightLeak.pdf Graphic file (type pdf)
  <use LightLeak.pdf>
 File: ./TRIUMF.png Graphic file (type png)
@@ -987,7 +987,7 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  14789 strings out of 495061
- 277248 string characters out of 1182621
+ 277258 string characters out of 1182621
  340083 words of memory out of 3000000
  17543 multiletter control sequences out of 15000+50000
  14230 words of font info for 53 fonts, out of 3000000 for 9000
@@ -999,7 +999,7 @@ xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmssi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on presentation.pdf (9 pages, 312049 bytes).
+Output written on presentation.pdf (9 pages, 311780 bytes).
 PDF statistics:
  644 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
