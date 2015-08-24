@@ -63,30 +63,39 @@
 \begin{figure}
 \centering
 \includegraphics[height=0.5\textwidth]{VUV3_AP2_vs_OV.pdf}
-\caption{Afterpulsing rate against operating voltage for VUV3 at -100C. Calculated from values extracted from fit to delta-time distribution.}
+\caption{Average number of afterpulses against operating voltage for VUV3 at -100C. Both values extracted from fit to delta-time distribution and counted directly.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Updated Crosstalk Plot}
+\begin{frame}{Crosstalk Rate}
 \begin{figure}
 \centering
-\includegraphics[height=0.5\textwidth]{LightLeak.pdf}
-\caption{Delta-time distribution.}
+\includegraphics[height=0.5\textwidth]{VUV3_CT_vs_OV.pdf}
+\caption{Average number of crosstalk against operating voltage for VUV3 at -100C. Calculated from counting process.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Setup Modifications}
+
+\begin{frame}{Correlated Avalanches}
+\begin{figure}
+\centering
+\includegraphics[height=0.5\textwidth]{VUV3_CA_vs_OV.pdf}
+\caption{Average number of correlated avalanches against operating voltage for VUV3 at -100C. Sum of counted afterpulsing and crosstalk values}
+\end{figure}
+\end{frame}
+
+\begin{frame}{<PE> Measurement}
 \begin{itemize}
-\item To obtain a less noisy reference waveform, one SiPM was replaced with a Hammamatsu PMT.
-\item It was seen that the collimators were the source of the $\left< PE \right>$ measurement instability, by exacerbating any small misalignment, and were removed. 
+\item When the collimators were removed, the anticorrelation in <PE> was gone
+\item To test if the UV filters had an impact, they were removed but the previous anticorrelation was still evident
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Updated $\left< PE \right>$ Data}
+\begin{frame}{<PE> Measurement}
 \begin{figure}
 \centering
-\includegraphics[height=0.5\textwidth]{LightLeak.pdf}
-\caption{Delta-time distribution.}
+\includegraphics[height=0.5\textwidth]{PE.PNG}
+\caption{PE measurement over time for VUV3}
 \end{figure}
 \end{frame}
 
