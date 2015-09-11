@@ -1,3 +1,4 @@
 BV 	temp	sigma	err_temp
 6.41404e+01	26.5	2.81902e-01	0		
+62.6 @ -10C
 

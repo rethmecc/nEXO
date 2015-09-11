@@ -1,0 +1,88 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \color {black}TRIUMF on the globe.}}{2}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Organisation chart from the Head of TRIUMF to our work team.}}{4}{figure.2.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Elementary particles according to the \textit {Standard model}. The leptonic number of the $\Pelectron $ and the $\Pnue $ is +1 each while for their own anti-particle is -1 each.}}{6}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Nuclei with A = 136. Parabola connecting ``odd-odd'' and ``even-even'' nuclei are shown. Single \(\beta \)-decay of $\ce {^{136}Xe}$ to $\ce {^{136}Cs}$ is energetically forbidden.}}{8}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Scintillation process: the excited atom releases its energy by emitting light (fluorescence photons).}}{9}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces nEXO will increase the resolution of the scintillation energy for the \(0\Pneutrino \beta \beta \).}}{9}{figure.3.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces An aluminum box contains a Xenon flash lamp and two photo-detectors.}}{12}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Devices to control the Xenon flash lamp }}{12}{figure.4.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The voltage of the lamp is set by this external supply line.}}}{12}{figure.4.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A pulse generator controls the frequency (10 ms) and the duration of each flash of the lamp (10$\Pmu $s). The frequency of the lamp is limited by the reading speed of the oscilloscope (20 GHz maxi).}}}{12}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Beam splitter and filters}}{13}{figure.4.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The incoming beam reaches the surface of each detectors due to the beam splitter.}}}{13}{figure.4.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The filter in front of the lamp select the VUV region. Both of them attenuate the light of around 20$\%$ each.}}}{13}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces N2 from that bottle fills the box.}}{14}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A VUV2 SiPM on the top lets check if the light from the lamp is constant.}}{14}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A VUV3 SiPM centered on the cooling shock.}}{15}{figure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The cooling system lets work up to $-110^{\circ }$C.}}}{15}{figure.4.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {VUV3 SIPM of HAMMAMATSU centered on the shock.}}}{15}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Differents SiPM from HAMMAMATSU are tested.}}{15}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Those devices allow registering temperatures from different parts of the box.}}{16}{figure.4.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {One of the ten temperature sensors.}}}{16}{figure.4.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {That device lets record temperatures from sensors.}}}{16}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Documentation about SiPM is provided by HAMMAMASTU \cite {ref:mppc_hammamatsu}.}}{17}{figure.4.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {A MPPC SiPM from HAMMAMATSU VUV sensitive.}}}{17}{figure.4.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Equivalent circuit.}}}{17}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces A photo-diode shown as a PN junction \cite {ref:Hammamatsu_pn_junction}.}}{18}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces A photon triggers an avalanche of electron-hole pairs inside the PN junction.}}{19}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces One pixel of the VUV3 SiPM is firred by photons. Here is the corresponding single pixel avalanche which gives such a pulse shape. Horizontal axis is the time (1$\Pmu $s/div) and Vertical axis is the voltage measured from the photo-detector (10mv/div).}}{19}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Dark noise, after-pulse and crosstalk.Horizontal axis is 1$\Pmu $s/div and Vertical axis is 10mv/div.}}{20}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Pulse shapes from a pixel firred by an incoming photon (centered) are exactly the same than pulse shape triggered by hot carriers (left). The blue signal comes from the detector on the top while the yellow one comes from the detector on the bottom. Horizontal axis is 1$\Pmu $s/div and Vertical axis is 20mv/div.}}{20}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces After pulses are clearly identified with the persistent mode of the oscilloscope \cite {ref:mppc_meg}.}}{21}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The incoming \leavevmode {\color {red}photon} triggers hot carriers.Then emitted \leavevmode {\color {blue}photons} may reach a neighboring pixel and trigger there an avalanche \cite {ref:motivation_and_introduction}.}}{22}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Different solutions to avoid light leaks.}}{23}{figure.4.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {A black tissue lets avoid light from outside the box.}}}{23}{figure.4.17}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Black vin, covering the wall and the bottom of the box, absorbs light leaks from the Xenon flash lamp .}}}{23}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Electronic noise from radio frequency light leaks disturbs signals from the photo-detectors: pulse shapes will be hided or deformed.Horizontal axis is 1$\Pmu $s/div and Vertical axis is 5mv/div.}}{23}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Different technical solutions to clean signals of the photo-detectors from electronic noise.}}{25}{figure.4.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {A thin copper foil allows good contact between the lid and the top of the box.}}}{25}{figure.4.19}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A Faraday cage around each photo-detector isolates them from radio frequency leaks.}}}{25}{figure.4.19}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Each signal wire is enrolled with aluminum foil touching the ground part of each photo-detector.}}}{25}{figure.4.19}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Without electronic noise pulse shapes can be identified from Gaussian noise. Horizontal axis is 1$\Pmu $s/div and Vertical axis is the amplitude (5mv/div).}}}{25}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Dark and light regions.Horizontal axis is 1$\Pmu $s/div) and Vertical axis is 10mv/div.}}{26}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Histogram of VUV3 SiPM for an over-voltage of 5V @ $-100^\circ $C.}}{28}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Inconsistent results for the efficiency of the VUV3 SiPM at $-100^\circ $C.}}{28}{figure.4.22}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Hugh variations of the efficiency for the top and bottom after three hours of running.}}{30}{figure.4.23}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Effect of the temperature on the position of the two collimators.}}{31}{figure.4.24}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces The breakdown voltage allows working on the same OV for different temperature and thus to plot DN versus temperature.}}{33}{figure.4.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The fitting allows finding a breakdown voltage of 44.73V for the VUV3 SiPM at $-100^{\circ }$C.}}}{33}{figure.4.25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dark noise rate versus temperature for the \leavevmode {\color {blue}VUV3 SiPM} and the \leavevmode {\color {red}MEG MPPC}.}}}{33}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Dark noise rate increases with the over-voltage applied on the VUV3 SiPM at $-100^\circ $C.}}{34}{figure.4.26}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces The shematic algorithm to find after pulses.Pulse shapes are set positive.}}{36}{figure.4.27}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces An histogram from crosstalk analysis. The device is a VUV3 SiPM at $-100^{\circ }$C at 5 over-voltage.}}{37}{figure.4.28}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Crosstalk for the VUV3 SiPM reminds below 2 up 6.5 OV.}}{37}{figure.4.29}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Those two plots are the unique signature of a photo-detector.}}{38}{figure.4.30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Probability of observing next pulses after the first one of the first recorded waveform. Two tails separated at 50$\Pmu $s are quiet visible.}}}{38}{figure.4.30}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Amplitude of pulses versus time for the VUV3 SiPM.}}}{38}{figure.4.30}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Average Number of after pulses for the VUV3 SiPM at $-100^{\circ }$C.}}{38}{figure.4.31}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Average Number of Correlated Avalanches for the VUV3 SiPM at $-100^{\circ }$C.}}{39}{figure.4.32}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces General pictures of the setup.}}{48}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Different devices used for the setup.}}{49}{figure.B.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces A black box covering the lamp blocks light leaks from it.}}{49}{figure.B.3}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Pieces of metal seem to absorbe radio frequency leaks from the lamp.}}{50}{figure.B.4}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces These two lines on the shock guide to center the photodetector with the hole of 1 mm of the colllimator.}}{50}{figure.B.5}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces It is quiet difficult to align properly the photodetector of the top with a hole of 1 mm. }}{51}{figure.B.6}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Increasing the voltage makes appear earlier pulses triggered by photons.}}{51}{figure.B.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {1.7V.}}}{51}{figure.B.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2.6V.}}}{51}{figure.B.7}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {3.6V.}}}{51}{figure.B.7}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {4.8V.}}}{51}{figure.B.7}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Signals from each photo-detector are increased by using amplifiers.}}{52}{figure.B.8}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Electronic saturation from the MEG MPPC.Horizontal axis is 1$\Pmu $s/div and Vertical axis is 1V/div.}}{52}{figure.B.9}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces The blue signal shows photon saturation: too many peaks in the 1.4$\Pmu $s region.Horizontal axis is 1$\Pmu $s/div and Vertical axis is 10mV/div.}}{52}{figure.B.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces The coefficient of transmission for our filters is less than $20\%$ according to the manufacturer \cite {ref:phelham_filter}.}}{53}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Temperature of one of the sensors versus temperature displays by the cooling system.}}{54}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces At $-80^\circ $ this figure -gain versus voltage- allow determinate the breakdown voltage thanks to the fitting.}}{55}{figure.C.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Light leaks from outside of the box.}}{58}{figure.C.4}

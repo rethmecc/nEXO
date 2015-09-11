@@ -1,0 +1,115 @@
+
+\documentclass[a4paper, 11pt]{report}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,trees,backgrounds,positioning,shadows} % loads some tikz extensions
+\usepackage{gensymb} % for degree symbol
+\usepackage{color}%for color on text
+
+\begin{document}
+
+ %start lower left corner of canvas% start the page 
+ %\vspace*{0cm}
+ %\hspace{0cm}
+ 
+  As no single university could provide research needs, the initial consertium grows up to 19 different 
+  member and associate universities from across Canada. This consortium rules BAlalal and has allowed it to evolve into a national 
+  laboratory. %while still maintaining strong ties to the research programms of the CAnadian universities. 
+  
+  \leavevmode
+  \\
+  
+  \begin{figure}
+  \centering 
+  \begin{tikzpicture}[scale = 1]%, show background rectangle]
+    \draw(0,0) rectangle (11,5);%(x,y)
+    %oder has importance 
+    
+    %pulse shapes and AP
+    \draw[-, black, line width=1pt] (0,1)--(3,1);
+    \draw[-, black, line width=1pt] (3,1)--(3.8,4);
+    \draw[-, black, line width=1pt] (3.8,4)--(5,3);
+    \draw[-, black, line width=1pt] (5,3)--(5.3,3.5);
+    \draw[-, black, line width=1pt] (5.3,3.5)--(7.3,1);
+    \draw[-, black, line width=1pt] (7.3,1)--(11,1);
+    
+    %script
+    \node at(10,0.3) {\color{black} $time (ns)$};
+    \node at(1.5,4.6) {\color{black} $Amplitude (mV)$};
+    \node at(2.5,2.5) {\color{red} $Amp_{max}$};
+    \node at(5.7,3.8) {\color{red} $Ampl_{ap}$};
+    \node at(2.9,0.3) {\color{blue} $Time_{max}$};
+    \node at(6.1,0.3) {\color{blue} $Time_{ap}$};
+    \node at(8,4.5) {\color{black} $R = \frac{Ampl_{ap}}{Amp_{max}}\cdot\ln{(Time_{max}-Time_{ap})}$};
+    \node at(9.5,1.7) {\color{green} $Threshold$};
+    
+    %threshold     
+    \draw[-, green, line width=1.3pt, dashed] (0,1.45)--(11,1.45);
+    
+    % amplitude 
+    \draw[|, red, line width=1.3pt] (3.8, 1.45)--(3.8,4);
+    \draw[|, red, line width=1.3pt] (5,3)--(5,3.5);
+    \draw[-, red, line width=1.3pt,dashed] (5,3.5)--(5.3,3.5);
+    
+    %time
+    \draw[|, red, line width=1.3pt, dashed] (3.8, 0)--(3.8,4);
+    \draw[|, red, line width=1.3pt, dashed] (5.3,0)--(5.3,3.5);
+    
+    
+    
+  \end{tikzpicture}    
+  \caption{The shematic algorithm to find after pulses.Pulse shapes are positive.}
+  \label{fig:effect_temp}
+  \end{figure}
+  
+  \begin{figure}
+  \centering 
+  \begin{tikzpicture}[scale = 1]%, show background rectangle]
+    \draw(0,0) rectangle (11,5);%(x,y)
+    %oder has importance 
+    
+    \draw[|, black!80, line width=1pt] (6.55,1.2)--(6.55,2.5);
+    \draw[-, black!80, line width=1pt] (6.54,2.5)--(7.25,2.5);
+    \draw[|, black!80, line width=1pt] (7,2.8)--(7,2.5);
+    \draw[|, black!80, line width=1pt] (7.25,2.88)--(7.25,0.88);
+    \draw[-, black!80, line width=1pt] (0,0.88)--(11,0.88) node at (6,0.4) {\color{black} \textbf{$Bottom\ of\ the\ box$}};
+    
+    \draw[-,black,thick,dashed] (0,3.35) node[above right]{\color{black} $Beam \ @ -100^{\circ}$} -- (7.2,3.35) ;%cooling    
+    \draw[-,red,thick,dashed] (0,3) node[below right]{\color{black} $Beam \ @ \ RT$} -- (7.2,3);%RT
+    \draw[|,blue,line width=1.5pt] (7,4) -- (7,3.7);%collimator top top
+    \draw[|,blue,line width=1.5pt] (7,2.8) -- (7,3.1);%collimator top bottom     
+    \draw[black](7.2,2.9) rectangle (7.3,3.8); % top detector
+    \draw (9,1.8) node at (9,2) {$Photodetectors$};
+    \draw[->] (8,2.3) -- (7.4,3.35);%arrows to top
+    \draw[->] (8,1.7) -- (6.6,1);% arrow to bottom
+    
+    \draw[-,green,thick,dashed] (5.66,3.35) -- (5.66,1);%cooling    
+    \draw[-,red,thick,dashed] (6,3) -- (6,1);%RT
+    \draw[-,blue,line width=1.5pt] (5.46,1.2) -- (5.76,1.2);%collimator top right
+    \draw[-,blue,line width=1.5pt] (6.25,1.2) node at(4,1.2) {\color{blue} $Collimator$} -- (6.55,1.2);%collimator top left
+    \draw[black](5.56,0.9) rectangle (6.45,1);% bottom detector 
+    
+    \draw[|, black!80, line width=1pt] (6.55,1.2)--(6.55,2.5);
+    \draw[-, black!80, line width=1pt] (6.54,2.5)--(7.25,2.5);
+    \draw[|, black!80, line width=1pt] (7,2.8)--(7,2.5);
+    \draw[|, black!80, line width=1pt] (7.25,2.88)--(7.25,0.88);
+    \draw[-, black!80, line width=1pt] (0,0.88)--(11,0.88) node at (6,0.4) {\color{black} \textbf{$Bottom\ of\ the\ box$}};
+    
+    
+    \draw[-,black, thick] (5.2,3.8) -- +(315:1.9) node at(4.8,4.3) {$Beam splitter$};%bs
+    
+  \end{tikzpicture}    
+  \caption{Effect of the temperature on the position of the two photodetectors}
+  \label{fig:effect_temp}
+  \end{figure}
+  
+  
+  \begin{figure}[!hbtp]
+    \centering
+    \frame{\includegraphics[totalheight=0.2\textwidth,trim=0cm 0cm 0cm 0cm, clip=true,page= 2]{../Characterization_of_VUV_sensitive_SiPMs_for_nEXO.pdf}}
+    \caption{Dark and light regions.}
+    \label{fig:dark_light_region}
+  \end{figure}
+  
+  
+\end{document}

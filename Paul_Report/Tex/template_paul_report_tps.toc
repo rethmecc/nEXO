@@ -1,0 +1,85 @@
+\select@language {english}
+\contentsline {paragraph}{Thanks}{i}{section*.1}
+\contentsline {paragraph}{Abstract}{ii}{section*.2}
+\contentsline {paragraph}{R\'esum\'e}{ii}{section*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}A short abstract about TRIUMF }{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}History and Partners}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}History}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Partners}{3}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Governance and Organization}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Research topics at TRIUMF }{4}{section.2.3}
+\contentsline {paragraph}{\relax $\@@underline {\hbox {\textit {From SNOLAB to EXO-200}}}\mathsurround \z@ $\relax }{5}{section*.6}
+\contentsline {chapter}{\numberline {3}Motivations}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Understand physical phenomena}{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Is the neutrino a Majorana particle?}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}From EXO-200 to nEXO}{8}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}The subject of my internship}{10}{subsection.3.1.3}
+\contentsline {chapter}{\numberline {4}SiPM Studies}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Methodology}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}The Setup}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The Xenon flash lamp }{12}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Photo-detectors and the cooling system}{14}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Temperature sensors and automation}{15}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Silicon Photo-Multiplier}{16}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Structure}{16}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Basic operation}{17}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Physical APD's operation}{17}{subsection.4.3.3}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {PN Junction}}\mathsurround \z@ $\relax }}{17}{section*.7}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Principe of avalanche multiplication}}\mathsurround \z@ $\relax }}{18}{section*.8}
+\contentsline {subsection}{\numberline {4.3.4}The three main issues of an operating SiPM}{20}{subsection.4.3.4}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Dark Noise}}\mathsurround \z@ $\relax }}{20}{section*.9}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Trapping phenomena: Afterpulsing}}\mathsurround \z@ $\relax }}{21}{section*.10}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Optical crosstalk}}\mathsurround \z@ $\relax }}{21}{section*.11}
+\contentsline {section}{\numberline {4.4}Encountered issues}{22}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Visible light leaks}{22}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Radiofrequency light leaks}{23}{subsection.4.4.2}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Sources of electromagnetic noise}}\mathsurround \z@ $\relax }}{23}{section*.12}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Three main solutions}}\mathsurround \z@ $\relax }}{24}{section*.13}
+\contentsline {paragraph}{\relax $\@@underline {\hbox {\emph {Isolate the lid from the box}}}\mathsurround \z@ $\relax }{24}{section*.14}
+\contentsline {paragraph}{\relax $\@@underline {\hbox {\emph {Isolate the Xenon flash lamp }}}\mathsurround \z@ $\relax }{24}{section*.15}
+\contentsline {paragraph}{\relax $\@@underline {\hbox {\emph {Isolate the photo-detectors and the amplifiers}}}\mathsurround \z@ $\relax }{24}{section*.16}
+\contentsline {section}{\numberline {4.5}Efficiency of the photo-detectors}{25}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Methodology used to calculate efficiency}{25}{subsection.4.5.1}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Theoretical calculation}}\mathsurround \z@ $\relax }}{25}{section*.17}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Setting and analysis}}\mathsurround \z@ $\relax }}{26}{section*.18}
+\contentsline {subsection}{\numberline {4.5.2}Inconsistent results at $-100^\circ $C}{27}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Analysis: the misalignment of the light}{28}{subsection.4.5.3}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {The fourth first parameters}}\mathsurround \z@ $\relax }}{29}{section*.19}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Effect of the temperature}}\mathsurround \z@ $\relax }}{30}{section*.20}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {Conclusion}}\mathsurround \z@ $\relax }}{32}{section*.21}
+\contentsline {section}{\numberline {4.6}Dark Noise rate}{32}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Methodology for dark noise}{32}{subsection.4.6.1}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {theoretical dark noise}}\mathsurround \z@ $\relax }}{32}{section*.22}
+\contentsline {subsubsection}{\textit {\relax $\@@underline {\hbox {setting and algorithm}}\mathsurround \z@ $\relax }}{33}{section*.23}
+\contentsline {subsection}{\numberline {4.6.2}Results}{33}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Analysis: Poisson distribution}{34}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}conclusion}{34}{subsection.4.6.4}
+\contentsline {section}{\numberline {4.7}Correlated avalanches: CT and AP}{35}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Methodology}{35}{subsection.4.7.1}
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {\textit {Crosstalk}}}\mathsurround \z@ $\relax }{35}{section*.24}
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {\textit {Afterpulse}}}\mathsurround \z@ $\relax }{35}{section*.25}
+\contentsline {subsection}{\numberline {4.7.2}Results}{37}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Analysis}{39}{subsection.4.7.3}
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {\textit {Crosstalk}}}\mathsurround \z@ $\relax }{39}{section*.26}
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {\textit {After Pulses}}}\mathsurround \z@ $\relax }{39}{section*.27}
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {\textit {Correlated Avalanche}}}\mathsurround \z@ $\relax }{41}{section*.28}
+\contentsline {chapter}{\numberline {5}Synthesis}{42}{chapter.5}
+\contentsline {paragraph}{\textit {Recommendations }}{42}{section*.29}
+\contentsline {paragraph}{\textit {Recommendations }}{42}{section*.30}
+\contentsline {chapter}{\numberline {6}Professional assessments}{43}{chapter.6}
+\contentsline {chapter}{\numberline {7}Human impact}{44}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{45}{chapter.8}
+\contentsline {chapter}{\numberline {A}Terminology}{47}{appendix.A}
+\contentsline {chapter}{\numberline {B}Details about the setup}{48}{appendix.B}
+\contentsline {section}{\numberline {B.1}Pictures of the setup}{48}{section.B.1}
+\contentsline {section}{\numberline {B.2}Details about waveforms}{51}{section.B.2}
+\contentsline {chapter}{\numberline {C}Tests}{53}{appendix.C}
+\contentsline {section}{\numberline {C.1}Attenuation of light}{53}{section.C.1}
+\contentsline {section}{\numberline {C.2}Calibration of temperature sensors}{54}{section.C.2}
+\contentsline {section}{\numberline {C.3}Breakdown voltage calculation}{55}{section.C.3}
+\contentsline {section}{\numberline {C.4}Error bars calculation}{56}{section.C.4}
+\contentsline {subsection}{\numberline {C.4.1}PE}{56}{subsection.C.4.1}
+\contentsline {section}{\numberline {C.5}DN}{56}{section.C.5}
+\contentsline {section}{\numberline {C.6}CT}{57}{section.C.6}
+\contentsline {section}{\numberline {C.7}Test to check light leaks}{57}{section.C.7}

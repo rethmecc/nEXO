@@ -1,0 +1,38 @@
+about amplitude vs time.
+
+Llyod designa function called pulsefinding.exe to find the next pulse. 
+We recorded 15000 waveform. each wavefrom has two axis : y : amplitude and x time. 
+So we count the time of the next pulse from the first one 
+scan the wave form, calculate the standard deviation of the baseline at the standard deviation is a threshold. 
+the low bandey /threhsold 4.5 baseline. 
+
+find all local maximum above the baseline
+
+check the certain nb of bin before and after the local maximum,have to the time (1ns fater and 6 ns befoe) and check the amplitude
+
+6 ns : time scale 
+1 ns: after help on the right is for after pulse
+
+from the maximeum, check other maxia autour and check the time between difference peak. 
+then divide the amplitude of each diff peak by the amplitude of the maxima eq:
+ampl(other)/ampl(ampl)/log(distance between two peak)
+
+check the distance and the high of each peak around the maxima. 
+very far, and very samll -> not after pulse. 
+
+to avoid oscillating noise, create a thresold obave the baseline and check twice if the oscillating noise cross the neg threshold below the bseline. 
+
+for integrating : pulse cross twice the threhsold and integrate all, no matter aterulse
+
+
+record the time of the peak, 
+record the relative amplitude (for after pulse) and the time
+
+give small slope, because of the quenching resistor,
+
+after 10us it is dn and DN + CT
+
+p[0] = pro of having no after pulse, 
+p[1] = DN rate 
+
+

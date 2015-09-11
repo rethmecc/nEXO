@@ -1,0 +1,112 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   cover_page                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt]{report}
+\usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry}
+\usepackage{kpfonts}
+\usepackage{eso-pic}                
+\usepackage{tcolorbox}%color for box
+%\usepackage[style=alphabetic]{biblatex}
+\usepackage[style=authoryear,sorting=ynt]{biblatex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   begin cover_page                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{empty}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   2 pictures on top                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.45\linewidth}
+  \begin{flushleft}
+    \includegraphics[width=0.30\textwidth]{../Pictures/TPS.png}
+  \end{flushleft}
+\end{minipage}
+\quad
+\begin{minipage}[t]{0.45\linewidth}
+  \begin{flushright}
+    \includegraphics[width=0.45\textwidth]{../Pictures/university_strass.jpg}
+  \end{flushright}
+\end{minipage}
+\vspace{1cm}
+\begin{flushright}
+\begin{minipage}{0.25\textwidth}
+    LOPES GOMES Paul\\
+    Promotion 2015\\
+    2015-2016
+\end{minipage}
+\end{flushright}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%        title of the internship on the middle             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace*{\fill}
+\begin{center}
+\begin{minipage}{.6\textwidth}
+\begin{center}
+  %Diplome d'ing\'enieur T\'el\'ecom Physique Strasbourg \par
+  %\vspace*{1cm}
+  {Rapport de stage de 5 pages en français : \par}
+  \vspace*{1cm}
+  {\textbf{\large\itshape {``D\'eveloppement de photod\'etecteurs pour l'exp\'erience nEXO''}} \par}
+  %{\textbf{\large\itshape {``Photo-detectors development for nEXO''}} \par}
+  %{\textbf{\large\itshape {``D\'eveloppement de photo-d\'etecteurs pour l'exp\'erience nEXO''}} \par}
+\end{center}
+  \end{minipage}
+\end{center}
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   2 pictures on bottom                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\noindent\rule{20cm}{0.4pt}
+
+\vfill
+\small
+\begin{minipage}{0.45\linewidth}
+\begin{flushleft}    
+    \textbf{TRIUMF}\\
+    \vspace{0.1cm}    
+    {\itshape 4004 Wesbrook Mall V6T 2A3 \par}
+    {\itshape Vancouver BC Canada \par}
+    {\itshape Tel(Fax) 604.222.1047(1074) \par}
+    {\itshape www.triumf.ca \par}
+    \vspace{0.1cm}
+    \footnotesize
+    \includegraphics[width=0.25\textwidth]{../Pictures/triumf.png}
+    \hspace{0.9cm}
+    \includegraphics[width=0.25\textwidth]{../Pictures/Exo.jpeg} 
+\end{flushleft}
+\end{minipage}
+%\quad
+\begin{minipage}{0.45\linewidth}
+\begin{flushright}    
+    {\textbf{RETIERE Fabrice} \par}
+    {\itshape Tel 604.222.7572 \par}
+    {\itshape Fax 604.222.1074 \par}
+    {\itshape fretiere@triumf.ca \par} %$\mid$ same as $\vert$ same as \textbar \
+    \vspace{0.5cm}
+    \footnotesize
+    {\textbf{Du 2 Mars 2015 au 31 Ao\^ut 2015}}
+\end{flushright}
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                     end cover_page                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+
