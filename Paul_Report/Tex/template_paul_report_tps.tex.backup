@@ -77,7 +77,7 @@
 \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
 
 \tcbset{tab1/.style={ fonttitle=\bfseries\large, fontupper=\normalsize\sffamily, colback=yellow!10!white, colframe=red!75!black,
-  colbacktitle=blue!40!white, coltitle=black, center title, freelance,
+  colbacktitle=blue!40!white, coltitle=black, center title, freelens,
   frame code={ \foreach \n in {north east,north west,south east,south west}
   {\path [fill=red!75!black] (interior.\n) circle (3mm); };},}
 }
@@ -660,13 +660,13 @@
   I worked with 2 others students.  We divided the work according to our qualities and skills.
   \\
   
-  So Carl and I thought about algorithms to analyze waveforms recorded from the oscilloscope. 
-  As Carl had yet worked on SiPM before, he wrote mainly different programs to analyze them.
+  So Carl and I thought about algorithms to analysis waveforms recorded from the oscilloscope. 
+  As Carl had yet worked on SiPM before, he wrote mainly different programs to analysis them.
   Both of us tried to find also technical solutions for different issues we had.\\
   As I worked on the setup the first month of my internship, I was mainly responsible of the setup and of taking data.\\
   As Lloyd worked on the setup one year ago he wrote different programs for the automation stuff. He also wrote a function called 
   ``Pulsefinding.exe'' to calculate the dark noise and after pulses rate.\\
-  Data analyze was made using C++ and ROOT. \\  
+  Data analysis was made using C++ and ROOT. \\  
   This mix of knowledges allows finding technical solutions and thinking about algorithms. 
   \\
   
@@ -1287,7 +1287,7 @@
     <PE> =  -ln(\frac{P_{L0}}{P_{D0}}).
   \end{equation}
   
-  \subsubsection{\textit{\underline{Setting and analyze}}}
+  \subsubsection{\textit{\underline{Setting and analysis}}}
   
   On the scope we trigger on the lamp. The scope displays a waveform on 10$\Pmu$s since the \xfl is on during 10 $\Pmu$s (with a frequency of 100Hz)\\
   During this lapse of time,we noticed that the lamp needs more than 4$\Pmu$s before sending photons. After 4$\Pmu$s we could noticed 
@@ -1345,7 +1345,7 @@
   
   The error bars are quiet small (the appendix \ref{app:tests} details the error bars calculation.) 
   
-  \subsection{Analyze: the misalignment of the light}
+  \subsection{Analysis: the misalignment of the light}
   
   We would like to count the number of time we see a pulse corresponding to 1PE peak. 1PE peak can come from a single pixel 
   avalanches triggered by photons or from avalanches triggered by hot carriers (dark noise).\\
@@ -1502,7 +1502,7 @@
   \subsubsection{\textit{\underline{Conclusion}}}
   
   The misalignment of the light explains our inconsistent results. A solution should be to focus the beam of the \xfl on the collimator
-  with a lance.   
+  with a lens.   
   
   \section{Dark Noise rate}\label{sec:DN}
   
@@ -1539,7 +1539,7 @@
    P_{DN0} = \mathrm{e}^{-<DN>},
   \end{equation}
 
-  where $<DN>$ and $P_{DN0}$ are the dark noise rate \footnote{The dark noise rate, in Hz/mm\textsuperscript{2}, is the number of dark noise par second divided by the surface of a photo-detector (in mm\textsuperscript{2}).} 
+  where $<DN>$ and $P_{DN0}$ are the dark noise rate \footnote{The dark noise rate, in Hz, is the number of dark noise par second divided.} 
   of and the probability of not observing any pulses in the dark region, respectively. 
   \\
   
@@ -1595,7 +1595,7 @@
     \label{fig:DN_vs_OV}
   \end{figure}
   
-  \subsection{Analyze: Poisson distribution}
+  \subsection{Analysis: Poisson distribution}
    
   The figure \ref{fig:DN_vs_temp} shows clearly that the dark noise $<DN>$ rate follows a Poisson distribution. 
   The dark noise depends on the temperature: when the temperature increases the number of pulses triggered by hot carriers increases and so 
@@ -1756,7 +1756,7 @@
   \begin{figure}[!hbtp]
     \centering
     \includegraphics[totalheight=0.4\textwidth,trim=.5cm 0cm 1.8cm 0.9cm, clip=true]{../Pictures/CTHistforTalk.pdf} 
-    \caption{An histogram from crosstalk analyze. The device is a VUV3 SiPM at $-100^{\circ}$C at 5 over-voltage.}
+    \caption{An histogram from crosstalk analysis. The device is a VUV3 SiPM at $-100^{\circ}$C at 5 over-voltage.}
     \label{fig:histo_CT}
   \end{figure}
   
@@ -1811,7 +1811,7 @@
     \label{fig:CA}
   \end{figure}
   
-  \subsection{Analyze}
+  \subsection{Analysis}
   
   \subsubsection{\underline{\textit{Crosstalk}}}
   
@@ -1924,7 +1924,7 @@
   
   \paragraph{\textit{Recommendations }}
   
-  We recommend to the next students to enlarge the beam with a divergent lance. So that the beam could always reach the hole of 1 mm of 
+  We recommend to the next students to enlarge the beam with a divergent lens. So that the beam could always reach the hole of 1 mm of 
   the collimator even tough the board is moving down while cooling at very low temperature.
     
   On the contrary results about dark noise and correlated avalanches are confident, especially for the VUV3 SiPM which fulfills the last two
@@ -1963,7 +1963,7 @@
 %        chapter 7 summarize about progression             %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Human toll}
+\chapter{Human impact}
 
   I really enjoyed working at TRIUMF and also working in an English environment. 
   From the beginning of my internship I tried to improve my English skills in oder
@@ -2407,19 +2407,27 @@
   To check if we could observe some light leaks from outside of the box, we did a 3 consecutive runs:
   
   \begin{itemize}
-   \item 
+   \item Run 1: Lights of the room are off and a black tissue covers the box(black circle),
+   \item Run 2: Lights of the room are on and a black tissue covers the box(red triangle),
+   \item Run 3: Lights of the room are on and a black tissue is moved from the box (blue lossage).
   \end{itemize}
 
-  Plotting next pulses versus time for the same device at the same over-voltage shows clearly light leaks from outside of the box. 
+  \newpage
+  
+  Plotting next pulses versus time for the same device at the same over-voltage shows clearly light leaks from outside of the box. Indeed the blue 
+  lossage doesn't match at all with the first two runs. 
   
   \begin{figure}[!hbtp]
     \centering
-    \includegraphics[totalheight=0.5\textwidth,trim=0cm 0cm 1.6cm 0.9cm, clip=true]{../Pictures/DTimeLightLeakAug5.pdf} 
-    \caption{Light leaks from out side of the box.}
+    \includegraphics[totalheight=0.7\textwidth,trim=0cm 0cm 1.6cm 0.9cm, clip=true]{../Pictures/DTimeLightLeakAug5.pdf} 
+    \caption{Light leaks from outside of the box.}
     \label{fig:light_leaks}
   \end{figure}
   
-  \section{Efficiency at $-10^\circ$C }
+   
+\end{document}
+
+ \section{Efficiency at $-10^\circ$C }
   
   Due to the issue we had with the board at $-100^\circ$C \ref{sec:PE}, we were able to compare the efficiency between the MEG MPPC and 
   the VUV3 SiPM at $-10^\circ$C. At such a temperature, the cooling shock doesn't cool down the board holding the two collimators. 
@@ -2432,10 +2440,6 @@
   
   
   
-  
-\end{document}
-
-
 For all our measurements, the position of the lamp and the external voltage were set at 20 mm from the metal divider of the box and 
 at 2.8 V, respectively.
   
